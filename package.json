@@ -1,0 +1,27 @@
+{
+  "name": "bulk-file-renamer",
+  "version": "1.0.0",
+  "description": "Bulk rename files using a regex find-and-replace pattern, with a safe dry-run preview.",
+  "bin": {
+    "renamer": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "rename",
+    "bulk",
+    "regex",
+    "cli",
+    "files"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  }
+}
